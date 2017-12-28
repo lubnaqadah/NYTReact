@@ -16,6 +16,8 @@ app.use(routes);
 
 // Set up promises with mongoose
 mongoose.Promise = global.Promise;
+
+const MONGODB_URI = "mongodb://heroku_0c2p948l:ajo1bd1qt6v27ljq26cqqt3lad@ds135757.mlab.com:35757/heroku_0c2p948l";
 // Connect to the Mongo DB
 mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/nytarticles",
