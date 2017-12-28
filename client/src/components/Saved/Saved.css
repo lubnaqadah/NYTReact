@@ -1,0 +1,10 @@
+.saved{
+	margin-top: 20px;
+	margin: 20px 0;
+	border: 1px solid #2c3e50;
+	border-radius: 10px;
+	background-color: #d9eee8!important;
+}
+.saved a{
+	color: #eceff1!important
+}

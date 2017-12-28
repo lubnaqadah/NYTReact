@@ -1,0 +1,36 @@
+.top{
+	margin: 20px 0;
+	border: 1px solid #2c3e50;
+	border-radius: 10px;
+	background-color: #eceff1!important;
+}
+.top a{
+	color: #eceff1!important
+}
+.card-img-top{
+	float: left;
+	padding: 10px;
+	border-radius: 5px;
+	
+}
+
+.card-header{
+	font-size: 1.3em;
+	background-color: #4aaaa5!important;
+	padding: 8px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.card-block{
+	padding: 8px;
+	color: #2c3e50!important
+}
+.card-block .btn{
+	margin-left: 90%;
+	
+		
+}
+.card .btn{
+
+}

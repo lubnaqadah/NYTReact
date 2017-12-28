@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "times";
+    src: url("NewYorkTimes.ttf");
+}
+
+h1{
+	font-family: "times", Fallback, sans-serif !important;
+	font-size: 5em!important;
+	font-weight: 600!important;
+	color: #000!important;
+}
