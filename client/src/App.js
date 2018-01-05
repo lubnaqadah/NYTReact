@@ -104,7 +104,7 @@ render() {
 						<Article
 							url={article.web_url} title={article.headline.main} date={article.pub_date} snippet={article.snippet} 
 
-							img= {"https://nyt.com/" + article.multimedia[2].url} id={article._id}
+							img= {article.multimedia[2] ? "https://nyt.com/" + article.multimedia[2].url : null} id={article._id}
 							key={article._id} save={this.save}
 							/>
 					))}
@@ -113,7 +113,7 @@ render() {
 				<Card header="Saved Articles">
 				{this.state.savedArticles.map( article =>(
 					<Saved
-						url={article.url} title={article.title} date={article.date} snippet={article.snippet} img={article.img} id={article._id} remove={this.remove} key={article._id}
+						url={article.url} title={article.title} date={article.date} snippet={article.snippet} img={article.img } id={article._id} remove={this.remove} key={article._id}
 						/>
 				))}
 				</Card>
